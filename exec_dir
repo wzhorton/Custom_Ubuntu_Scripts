@@ -4,3 +4,5 @@ for shfile in *.sh
 do
 	./$shfile
 done
+sudo apt install htop pavucontrol -y
+
