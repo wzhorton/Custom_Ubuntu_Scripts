@@ -1,2 +1,6 @@
 #!/bin/sh
 sudo chmod +x ~/Custom_Ubuntu_Scripts/*.sh
+for shfile in *.sh
+do
+	./$shfile
+done
