@@ -7,6 +7,6 @@ gpg -d secure.zip.gpg > secure.zip
 rm secure.zip.gpg
 unzip secure.zip
 rm secure.zip
-mkdir ~/.config/PCSX2 && mkdir ~.config/PCSX2/bios
+mkdir ~/.config/PCSX2 && mkdir ~/.config/PCSX2/bios
 mv ps2_bios/* ~/.config/PCSX2/bios
-rm ps2_bios
+rm -r ps2_bios
