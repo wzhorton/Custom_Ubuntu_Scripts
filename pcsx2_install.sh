@@ -10,3 +10,4 @@ rm secure.zip
 mkdir ~/.config/PCSX2 && mkdir ~/.config/PCSX2/bios
 mv ps2_bios/* ~/.config/PCSX2/bios
 rm -r ps2_bios
+mkdir -p ~/uranium/roms/ps2
